@@ -1,0 +1,27 @@
+
+Database changed
+Query OK, 0 rows affected (0.70 sec)
+
+Query OK, 5 rows affected (0.11 sec)
+Records: 5  Deleted: 0  Skipped: 0  Warnings: 0
+
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| name  | varchar(20) | YES  |     | NULL    |       |
+| size  | char(1)     | YES  |     | NULL    |       |
+| color | varchar(15) | YES  |     | NULL    |       |
+| bark  | char(1)     | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+4 rows in set (0.13 sec)
+
++----------+------+--------+------+
+| name     | size | color  | bark |
++----------+------+--------+------+
+| spot     | b    | brown  | l    |
+| luke     | s    | golden | q    |
+| rover    | m    | black  | l    |
+| dale     | s    | black  | l    |
+| clifford | b    | red    | l    |
++----------+------+--------+------+
+5 rows in set (0.00 sec)

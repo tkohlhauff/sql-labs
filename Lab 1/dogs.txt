@@ -1,0 +1,5 @@
+spot	b	brown	l
+luke	s	golden	q
+rover	m	black	l
+dale	s	black	l
+clifford	b	red	l
